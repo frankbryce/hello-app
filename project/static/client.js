@@ -9,7 +9,7 @@ socket.on('disconnect', function() {
 });
 
 socket.on('json', function(data) {
-    console.log('received message: ' + data.random_array)
+    console.log('received message: ' + data.random_array);
 });
 
 function random(w, h) {
